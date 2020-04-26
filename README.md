@@ -11,6 +11,7 @@
 #### **1.Project Introduction:**
 
 #### **2.Sample Demo Screen shots:**
+<img width="1443" alt="1" src="https://user-images.githubusercontent.com/16827535/80315632-b987d400-87ad-11ea-85f3-a0d87e9db2e4.png">
 
 #### **3.Pre-requisites:**
 
@@ -60,10 +61,11 @@ server.port=8080
 
 #### **4. Instructions on how to run the project locally.**
 
+Open terminal from /cmpe172_project directory
 ```mvn install```
-
+When build success, run the following code
 ```java -jar target/cmpe172_project-0.0.1-SNAPSHOT.jar```
-
+Open browert after the applicaiton is running. It should be on localhost port 8080
 ```localhost:8080```
 
 #### **5. UML Diagrams**

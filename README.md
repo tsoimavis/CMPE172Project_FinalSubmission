@@ -1,5 +1,5 @@
 ### San Jose State University
-### EnterpriseSoftware-CMPE172/Spring2020
+EnterpriseSoftware-CMPE172/Spring2020
 
   * Phillip Nguyen
   * Xiaohan Sun 
@@ -43,13 +43,13 @@ time datetime NOT NULL);
   
 
 **Instructions on how to run the project locally.**
-```
-mvn install
-java -jar target/cmpe172_project-0.0.1-SNAPSHOT.jar
-localhost:8080
-```
+```mvn install```
+
+```java -jar target/cmpe172_project-0.0.1-SNAPSHOT.jar```
+
+```localhost:8080```
 **UML Diagrams**
-  -Class and Sequence diagrams
+  - Class and Sequence diagrams
 
 **Schema**
 

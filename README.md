@@ -43,6 +43,7 @@ time datetime NOT NULL);
   
 
 **Instructions on how to run the project locally.**
+
 ```mvn install```
 
 ```java -jar target/cmpe172_project-0.0.1-SNAPSHOT.jar```
@@ -50,7 +51,7 @@ time datetime NOT NULL);
 ```localhost:8080```
 
 **UML Diagrams**
- Class and Sequence diagrams
+ - Class and Sequence diagrams
 
 **Schema**
 

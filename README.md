@@ -1,8 +1,8 @@
 ### San Jose State University
 ### EnterpriseSoftware-CMPE172/Spring2020
 
-Phillip Nguyen \n
-Xiaohan Sun \n
+Phillip Nguyen
+Xiaohan Sun 
 Tsz Ching Tsoi
 
 # Supermarket Inventory System

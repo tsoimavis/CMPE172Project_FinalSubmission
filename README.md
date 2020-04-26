@@ -1,5 +1,5 @@
 #### San Jose State University
-###EnterpriseSoftware-CMPE172/Spring2020
+#### EnterpriseSoftware-CMPE172/Spring2020
 
  - Phillip Nguyen
  - Xiaohan Sun
@@ -15,13 +15,13 @@
 
 #### **3.Pre-requisites:**
 
-__List of required software to download__
-   - Java JDK
-   - Maven
-   - mySQL
-   - Node.js
+_ _List of required software to download_ _
+   - [Java JDK](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html): Build java mid tier with spring boot
+   - [Maven](https://maven.apache.org/download.cgi): Build executable jar application with spring boot
+   - [mySQL](https://dev.mysql.com/downloads/): Databasse tier to hold application data (mySQL workbench is recommended for SQL beginingers)
+   - [Node.js](https://nodejs.org/en/download/): Build Front end UI with spring boot
 
-__set up steps__
+_ _Set up steps_ _
  
  1. Get SQL database directory, username and password ready for SQL connectivity later. 
 For example,database directoryfor a amazon RDS connection point will be like
@@ -62,11 +62,17 @@ server.port=8080
 #### **4. Instructions on how to run the project locally.**
 
 Open terminal from /cmpe172_project directory
-```mvn install```
+```
+mvn install
+```
 When build success, run the following code
-```java -jar target/cmpe172_project-0.0.1-SNAPSHOT.jar```
+```
+java -jar target/cmpe172_project-0.0.1-SNAPSHOT.jar
+```
 Open browert after the applicaiton is running. It should be on localhost port 8080
-```localhost:8080```
+```
+localhost:8080
+```
 
 #### **5. UML Diagrams**
  - Class and Sequence diagrams

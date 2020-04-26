@@ -1,9 +1,9 @@
 ### San Jose State University
 ### EnterpriseSoftware-CMPE172/Spring2020
 
-Phillip Nguyen
-Xiaohan Sun 
-Tsz Ching Tsoi
+  Phillip Nguyen
+  Xiaohan Sun 
+  Tsz Ching Tsoi
 
 # Supermarket Inventory System
 
@@ -12,16 +12,16 @@ Tsz Ching Tsoi
 **2.Sample Demo Screen shots:**
 
 **3.Pre-requisites:**
--List of required software to download
-Java JDK
-Maven
-mySQL
-Node.js
+  -List of required software to download
+  -Java JDK
+  -Maven
+  -mySQL
+  -Node.js
 
 **-Any set upsteps**
 
 SQL
-
+```
 CREATE TABLE product (
 product_ID int NOT NULL PRIMARY KEY AUTO_INCREMENT, 
 name varchar(50) DEFAULT NULL,
@@ -39,16 +39,17 @@ product_ID int NOT NULL,
 cus_ID int NOT NULL,
 quantity int  NOT NULL,
 time datetime NOT NULL);
-
+```
   
 
 **Instructions on how to run the project locally.**
+```
 mvn install
 java -jar target/cmpe172_project-0.0.1-SNAPSHOT.jar
 localhost:8080
-
+```
 **UML Diagrams**
-– Class and Sequence diagrams
+  -Class and Sequence diagrams
 
 **Schema**
 **DatabaseQueries**

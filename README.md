@@ -83,6 +83,22 @@ localhost:8080
 #### **6. Schema**
 
 #### **7. DatabaseQueries**
+Minimum price of product: select min(price) from product
+
+Mean price of product: select avg(price) from product
+
+Maximum price of product: select max(price) from product
+
+Most purchased product: select name, sum(quantity) from product natural join sale group by name order by sum(quantity) desc limit 1
+
+Least purchased product: select(name), sum(quantity) from product natural join sale group by name order by sum(quantity) limit 1
+
+Most popular category: select category, sum(quantity) from product natural join sale group by category order by sum(quantity) desc limit 1
+
+Least popular category: select category, sum(quantity) from product natural join sale group by category order by sum(quantity) limit 1
+
+Customer that spent the most: select customer.name, sum(price * quantity) as total from customer natural join sale, product where product.product_ID = sale.product_ID group by customer.name order by total desc limit 1
+
 
 #### **8. MidtierAPIs**
 

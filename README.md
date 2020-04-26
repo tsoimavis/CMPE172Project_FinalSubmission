@@ -5,8 +5,8 @@
  - Xiaohan Sun
  - Tsz Ching Tsoi
 
-:grapes::icecream::banana::green_apple::peach::eggplant::bread::crab:
-## Supermarket Inventory System
+
+## :banana::green_apple::peach:Supermarket Inventory System:strawberry::grapes::lemon::orange: 
 
 #### **1.Project Introduction:**
 

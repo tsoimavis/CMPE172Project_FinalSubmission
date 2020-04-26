@@ -1,9 +1,9 @@
 #### San Jose State University
 EnterpriseSoftware-CMPE172/Spring2020
 
-... Phillip Nguyen
-... Xiaohan Sun
-... Tsz Ching Tsoi
+ - Phillip Nguyen
+ - Xiaohan Sun
+ - Tsz Ching Tsoi
 
 ## Supermarket Inventory System<
 
@@ -13,13 +13,13 @@ EnterpriseSoftware-CMPE172/Spring2020
 
 #### **3.Pre-requisites:**
 
-__**List of required software to download**__
+__List of required software to download__
    - Java JDK
    - Maven
    - mySQL
    - Node.js
 
-__**Any set upsteps**__
+__set up steps__
  
  1. Get SQL database directory, username and password ready for SQL connectivity later. 
 For example,database directoryfor a amazon RDS connection point will be like

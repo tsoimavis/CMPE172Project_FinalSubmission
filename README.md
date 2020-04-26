@@ -19,8 +19,15 @@ EnterpriseSoftware-CMPE172/Spring2020
    - Node.js
 
  - Any set upsteps
+ 
+1.Get SQL database directory, username and password ready for SQL connectivity later.
+For example,database directoryfor a amazon RDS connection point will be like
+```
+jdbc:mysql://aws-user.dshdigdlw3t54.us-west-1.rds.amazonaws.com/supermarket
+```
 
-  SQL
+2. create three mySQL table to in mySQL store application data as below.
+   
 ```
 CREATE TABLE product (
 product_ID int NOT NULL PRIMARY KEY AUTO_INCREMENT, 
@@ -40,7 +47,14 @@ cus_ID int NOT NULL,
 quantity int  NOT NULL,
 time datetime NOT NULL);
 ```
-  
+3.In /cmpe172_project/src/main/resources/application.properties, 
+```
+spring.datasource.url=yourDatabaseURL
+spring.datasource.username=yourUserName
+spring.datasource.password=yourPassword
+server.port=8080
+```
+Change yourDatabaseURL, yourUserName, yourPasswordto your own credentials.
 
 **Instructions on how to run the project locally.**
 
@@ -59,6 +73,4 @@ time datetime NOT NULL);
 
 **MidtierAPIs**
 
-**UIdata transport**
-
-**xml,jsonetc**
+**UI data transport**

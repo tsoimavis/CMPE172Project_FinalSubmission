@@ -12,15 +12,15 @@ EnterpriseSoftware-CMPE172/Spring2020
 **2.Sample Demo Screen shots:**
 
 **3.Pre-requisites:**
-  - List of required software to download
+ List of required software to download
   - Java JDK
   - Maven
   - mySQL
   - Node.js
 
-**-Any set upsteps**
+ Any set upsteps
 
-SQL
+  SQL
 ```
 CREATE TABLE product (
 product_ID int NOT NULL PRIMARY KEY AUTO_INCREMENT, 
@@ -49,7 +49,7 @@ time datetime NOT NULL);
 
 ```localhost:8080```
 **UML Diagrams**
-  - Class and Sequence diagrams
+ Class and Sequence diagrams
 
 **Schema**
 

@@ -1,4 +1,4 @@
-<p align="center"><h3>San Jose State University</h3></p>
+<h3 style="text-align:center">San Jose State University</h3>
 <p align="center"><EnterpriseSoftware-CMPE172/Spring2020</p>
 
 <p align="center"> Phillip Nguyen</p>

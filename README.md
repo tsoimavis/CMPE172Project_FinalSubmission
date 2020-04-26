@@ -1,3 +1,4 @@
+<p align="center">
 ### San Jose State University
 EnterpriseSoftware-CMPE172/Spring2020
 
@@ -6,12 +7,12 @@ EnterpriseSoftware-CMPE172/Spring2020
   * Tsz Ching Tsoi
 
 # Supermarket Inventory System
+</p>
+#### **1.Project Introduction:**
 
-### **1.Project Introduction:**
+#### **2.Sample Demo Screen shots:**
 
-### **2.Sample Demo Screen shots:**
-
-### **3.Pre-requisites:**
+#### **3.Pre-requisites:**
 
  - List of required software to download
    - Java JDK
@@ -57,7 +58,7 @@ server.port=8080
 ```
  Change yourDatabaseURL, yourUserName, yourPasswordto your own credentials.
 
-### **4. Instructions on how to run the project locally.**
+#### **4. Instructions on how to run the project locally.**
 
 ```mvn install```
 
@@ -65,13 +66,13 @@ server.port=8080
 
 ```localhost:8080```
 
-### **5. UML Diagrams**
+#### **5. UML Diagrams**
  - Class and Sequence diagrams
 
-### **6. Schema**
+#### **6. Schema**
 
-### **7. DatabaseQueries**
+#### **7. DatabaseQueries**
 
-### **8. MidtierAPIs**
+#### **8. MidtierAPIs**
 
-### **9. UI data transport**
+#### **9. UI data transport**

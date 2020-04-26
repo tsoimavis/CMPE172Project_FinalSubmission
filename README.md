@@ -11,7 +11,7 @@
 #### **1.Project Introduction:**
 
 #### **2.Sample Demo Screen shots:**
-<img width="1443" alt="1" src="https://user-images.githubusercontent.com/16827535/80315632-b987d400-87ad-11ea-85f3-a0d87e9db2e4.png">
+<img width="500" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/img/1.png">
 
 #### **3.Pre-requisites:**
 

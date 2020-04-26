@@ -12,11 +12,11 @@
 **2.Sample Demo Screen shots:**
 
 **3.Pre-requisites:**
-  -List of required software to download
-  -Java JDK
-  -Maven
-  -mySQL
-  -Node.js
+  - List of required software to download
+  - Java JDK
+  - Maven
+  - mySQL
+  - Node.js
 
 **-Any set upsteps**
 
@@ -52,7 +52,11 @@ localhost:8080
   -Class and Sequence diagrams
 
 **Schema**
+
 **DatabaseQueries**
+
 **MidtierAPIs**
+
 **UIdata transport**
+
 **xml,jsonetc**

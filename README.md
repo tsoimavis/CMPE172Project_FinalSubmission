@@ -7,11 +7,12 @@ EnterpriseSoftware-CMPE172/Spring2020
 
 # Supermarket Inventory System
 
-**1.Project Introduction:**
+### **1.Project Introduction:**
 
-**2.Sample Demo Screen shots:**
+### **2.Sample Demo Screen shots:**
 
-**3.Pre-requisites:**
+### **3.Pre-requisites:**
+
  - List of required software to download
    - Java JDK
    - Maven
@@ -20,13 +21,13 @@ EnterpriseSoftware-CMPE172/Spring2020
 
  - Any set upsteps
  
-1. Get SQL database directory, username and password ready for SQL connectivity later. 
+ 1. Get SQL database directory, username and password ready for SQL connectivity later. 
 For example,database directoryfor a amazon RDS connection point will be like
 ```
 jdbc:mysql://aws-user.dshdigdlw3t54.us-west-1.rds.amazonaws.com/supermarket
 ```
 
-2. create three mySQL table to in mySQL store application data as below.
+ 2. create three mySQL table to in mySQL store application data as below.
    
 ```
 CREATE TABLE product (
@@ -47,16 +48,16 @@ cus_ID int NOT NULL,
 quantity int  NOT NULL,
 time datetime NOT NULL);
 ```
-3. In /cmpe172_project/src/main/resources/application.properties, 
+ 3. In /cmpe172_project/src/main/resources/application.properties, 
 ```
 spring.datasource.url=yourDatabaseURL
 spring.datasource.username=yourUserName
 spring.datasource.password=yourPassword
 server.port=8080
 ```
-Change yourDatabaseURL, yourUserName, yourPasswordto your own credentials.
+ Change yourDatabaseURL, yourUserName, yourPasswordto your own credentials.
 
-**4. Instructions on how to run the project locally.**
+### **4. Instructions on how to run the project locally.**
 
 ```mvn install```
 
@@ -64,13 +65,13 @@ Change yourDatabaseURL, yourUserName, yourPasswordto your own credentials.
 
 ```localhost:8080```
 
-**5. UML Diagrams**
+### **5. UML Diagrams**
  - Class and Sequence diagrams
 
-**6. Schema**
+### **6. Schema**
 
-**7. DatabaseQueries**
+### **7. DatabaseQueries**
 
-**8. MidtierAPIs**
+### **8. MidtierAPIs**
 
-**9. UI data transport**
+### **9. UI data transport**

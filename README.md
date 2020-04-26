@@ -1,11 +1,12 @@
 #### San Jose State University
-EnterpriseSoftware-CMPE172/Spring2020
+###EnterpriseSoftware-CMPE172/Spring2020
 
  - Phillip Nguyen
  - Xiaohan Sun
  - Tsz Ching Tsoi
 
-## Supermarket Inventory System<
+:grapes::icecream::banana::green_apple::peach::eggplant::bread::crab:
+## Supermarket Inventory System
 
 #### **1.Project Introduction:**
 

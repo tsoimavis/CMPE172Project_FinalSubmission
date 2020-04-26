@@ -1,11 +1,11 @@
-<p align="center">San Jose State University</p>
-<p align="center">EnterpriseSoftware-CMPE172/Spring2020
+<p align="center"><h3>San Jose State University</h3></p>
+<p align="center"><EnterpriseSoftware-CMPE172/Spring2020</p>
 
 <p align="center"> Phillip Nguyen</p>
 <p align="center">Xiaohan Sun</p>
 <p align="center">Tsz Ching Tsoi</p>
 
-<p align="center"> # Supermarket Inventory System</p>
+<p align="center"><h1> # Supermarket Inventory System</h1></p>
 
 #### **1.Project Introduction:**
 
@@ -13,13 +13,13 @@
 
 #### **3.Pre-requisites:**
 
-<p align="center">List of required software to download</p>
+__**List of required software to download**__
    - Java JDK
    - Maven
    - mySQL
    - Node.js
 
-<p align="center">Any set upsteps</p>
+__**Any set upsteps**__
  
  1. Get SQL database directory, username and password ready for SQL connectivity later. 
 For example,database directoryfor a amazon RDS connection point will be like

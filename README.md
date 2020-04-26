@@ -1,5 +1,4 @@
-<p align="center">
-### San Jose State University
+<p align="center">San Jose State University</p>
 EnterpriseSoftware-CMPE172/Spring2020
 
   * Phillip Nguyen
@@ -7,7 +6,7 @@ EnterpriseSoftware-CMPE172/Spring2020
   * Tsz Ching Tsoi
 
 # Supermarket Inventory System
-</p>
+
 #### **1.Project Introduction:**
 
 #### **2.Sample Demo Screen shots:**

@@ -20,7 +20,7 @@ EnterpriseSoftware-CMPE172/Spring2020
 
  - Any set upsteps
  
-1.Get SQL database directory, username and password ready for SQL connectivity later.
+1. Get SQL database directory, username and password ready for SQL connectivity later. 
 For example,database directoryfor a amazon RDS connection point will be like
 ```
 jdbc:mysql://aws-user.dshdigdlw3t54.us-west-1.rds.amazonaws.com/supermarket
@@ -47,7 +47,7 @@ cus_ID int NOT NULL,
 quantity int  NOT NULL,
 time datetime NOT NULL);
 ```
-3.In /cmpe172_project/src/main/resources/application.properties, 
+3. In /cmpe172_project/src/main/resources/application.properties, 
 ```
 spring.datasource.url=yourDatabaseURL
 spring.datasource.username=yourUserName
@@ -56,7 +56,7 @@ server.port=8080
 ```
 Change yourDatabaseURL, yourUserName, yourPasswordto your own credentials.
 
-**Instructions on how to run the project locally.**
+**4. Instructions on how to run the project locally.**
 
 ```mvn install```
 
@@ -64,13 +64,13 @@ Change yourDatabaseURL, yourUserName, yourPasswordto your own credentials.
 
 ```localhost:8080```
 
-**UML Diagrams**
+**5. UML Diagrams**
  - Class and Sequence diagrams
 
-**Schema**
+**6. Schema**
 
-**DatabaseQueries**
+**7. DatabaseQueries**
 
-**MidtierAPIs**
+**8. MidtierAPIs**
 
-**UI data transport**
+**9. UI data transport**

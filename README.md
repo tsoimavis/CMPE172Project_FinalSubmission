@@ -12,13 +12,13 @@ EnterpriseSoftware-CMPE172/Spring2020
 **2.Sample Demo Screen shots:**
 
 **3.Pre-requisites:**
- List of required software to download
-  - Java JDK
-  - Maven
-  - mySQL
-  - Node.js
+ - List of required software to download
+   - Java JDK
+   - Maven
+   - mySQL
+   - Node.js
 
- Any set upsteps
+ - Any set upsteps
 
   SQL
 ```
@@ -48,6 +48,7 @@ time datetime NOT NULL);
 ```java -jar target/cmpe172_project-0.0.1-SNAPSHOT.jar```
 
 ```localhost:8080```
+
 **UML Diagrams**
  Class and Sequence diagrams
 

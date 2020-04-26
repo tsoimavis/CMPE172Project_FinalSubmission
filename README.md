@@ -13,13 +13,13 @@
 
 #### **3.Pre-requisites:**
 
- - List of required software to download
+<p align="center">List of required software to download</p>
    - Java JDK
    - Maven
    - mySQL
    - Node.js
 
- - Any set upsteps
+<p align="center">Any set upsteps</p>
  
  1. Get SQL database directory, username and password ready for SQL connectivity later. 
 For example,database directoryfor a amazon RDS connection point will be like

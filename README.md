@@ -6,7 +6,7 @@
  - Tsz Ching Tsoi
 
 
-## :banana::green_apple::peach:Supermarket Inventory System:strawberry::grapes::lemon::orange: 
+## :watermelon::banana::green_apple::peach:Supermarket Inventory System:strawberry::grapes::lemon::orange: 
 
 #### **1.Project Introduction:**
 

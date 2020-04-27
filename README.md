@@ -80,7 +80,8 @@ localhost:8080
 #### **5. UML Diagrams**
  - Class Diagram
 <img width="1000" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/img/IMG_3585.PNG">
-# - Sequence diagrams
+
+# Sequence diagrams
 
 # **6. Schema**
 

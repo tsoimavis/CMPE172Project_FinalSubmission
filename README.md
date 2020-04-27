@@ -98,22 +98,29 @@ localhost:8080
 
 @RequestMapping (“/api”)
 @GetMapping 
+
  * (“/customer”): Get the customers’ name, and email.
  * (“/customer/{id}"): Get the customer’s ID.
  * (“/product”): Get the product’s name, price, and category.
  * (“/product/{id}”): Get the product’s id.
  * (“/sale”): Get the customer’s ID, product’s ID, quantity and time.
  * (“/sale/{id}”): Get the sale’s ID. 
- * (“/analytics”): Get the minimum, mean and maximum price; Get most and least purchased; Get the customer who spent most. 
+ * (“/analytics”): Get the minimum, mean and maximum price; Get most and least purchased; Get the customer who spent most.
+ 
 @PostMapping
+
  * (“/customer”): Add a new customer.
  * (“/product”): Add a new product.
  * (“/sale”): Add a new sale.
+ 
 @DeleteMapping 
+
  * ("/customer/{id}"): Delete a customer.
  * ("/product/{id}"): Delete a product. 
  * (“/sale/{id}”): Delete a sale.
+ 
 @PutMapping 
+
  * (“/customer”): Save the customer’s ID, name, and email. 
  * (“/product”): Save the product’s ID, name, price and category. 
  * (“/sale”): Save the sale’s ID, customer’s ID, product’s ID, quantity and time.
@@ -121,16 +128,16 @@ localhost:8080
 #### **9. UI data transport**
 
  * Customer: {“Customer ID”, “Name”, “Email”} from @GetMapping(“/api/customer”)
-  * {“1”, “Phillip”, “phillip@gmail.com”} 
+   * {“1”, “Phillip”, “phillip@gmail.com”} 
  * Product: {“Product ID”, “Name”, “Price”, “Category”} from @GetMapping (“/api/product”)
-  * (“1”, “Apple”, “0.99”, “Fruits”) 
+   * (“1”, “Apple”, “0.99”, “Fruits”) 
  * Sale: {“Sale ID”, “Product ID”, “Customer ID”, “Quantity”, “Time”} from @GetMapping (“api/sale”)
-  * {“1”, “1”, “1”, “3”, “2020-04-25T09:44:00.000+0000”} 
+   * {“1”, “1”, “1”, “3”, “2020-04-25T09:44:00.000+0000”} 
  * Add Customer: {“Name”, “Email”} from @PutMapping(“/api/customer”)
-  * {“Xiaohan”, “sunxiaohan0401@foxmail.com”} 
+   * {“Xiaohan”, “sunxiaohan0401@foxmail.com”} 
  * Add Product: {“Name”, “Price”, “Category”} from @PutMapping(“/api/product”)
-  * (“Banana”, “2.99”, “Fruits”)
+   * (“Banana”, “2.99”, “Fruits”)
  * Add Sales: {“Product ID”, “Customer ID”, “Quantity”, “Time”} from @PutMapping(“/api/sale”)
-  * {“1”, “1”, “3”, “2020-04-25T09:44:00.000+0000”}
+   * {“1”, “1”, “3”, “2020-04-25T09:44:00.000+0000”}
 * Analytics: {“Minimum Price”, “Mean Price”, “Maximum Price”, “Most Purchased”, “Least Purchased”, “Customer Who Spent Most”}   from @GetMapping(“/api/analytics”)
-  * {“$0.99”, “$2.823”, “$9.99”, “Ice Cream”, “Rice”, “Mavis”}
+   * {“$0.99”, “$2.823”, “$9.99”, “Ice Cream”, “Rice”, “Mavis”}

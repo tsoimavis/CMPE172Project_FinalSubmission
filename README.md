@@ -94,6 +94,7 @@ localhost:8080
 <img width="700" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/schema.PNG">
 ---
 #### **7. DatabaseQueries**
+
  - Minimum price of product: select min(price) from product
 
  - Mean price of product: select avg(price) from product

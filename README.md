@@ -9,6 +9,10 @@
 ## :watermelon::banana::green_apple::peach:Supermarket Inventory System:strawberry::grapes::lemon::orange: 
 
 # **1.Project Introduction:**
+
+Inventory control is absolutely necessary to make money and run an efficient business nowadays. As high technologies spread world-widely, there are many supermarket inventory systems published that users could download and use. However, many applications and systems contain the drawbacks such as high cost of storage, lost customers, high amount of obsolete inventory and so on. It will thus cause some problems like inadequate forecasting when the accurate data is not used to identify customer behavior and best-selling items. Therefore, It is necessary to come up with a system that is low-cost, efficient, useful and low-cost for users. 
+In order to achieve the goal, we built a scalable, three-tier web application that could perform analytics on supermarket sales. 
+
 ---
 #### **2.Sample Demo Screen shots:**
 <img width="500" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/img/1.png">

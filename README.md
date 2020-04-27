@@ -90,7 +90,8 @@ localhost:8080
 
 # Sequence diagrams
 ---
-# **6. Schema**
+#### **6. Schema**
+<img width="700" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/img/schema.png">
 ---
 #### **7. DatabaseQueries**
  - Minimum price of product: select min(price) from product

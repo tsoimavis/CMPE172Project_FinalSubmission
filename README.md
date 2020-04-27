@@ -78,7 +78,9 @@ localhost:8080
 ```
 
 #### **5. UML Diagrams**
- - Class and Sequence diagrams
+ - Class Diagram
+<img width="1000" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/img/IMG_3585.PNG">
+ - Sequence diagrams
 
 #### **6. Schema**
 
@@ -97,7 +99,7 @@ localhost:8080
 #### **8. MidtierAPIs**
 
 @RequestMapping (“/api”)
-@GetMapping 
+ @GetMapping 
 
  * (“/customer”): Get the customers’ name, and email.
  * (“/customer/{id}"): Get the customer’s ID.
@@ -107,19 +109,19 @@ localhost:8080
  * (“/sale/{id}”): Get the sale’s ID. 
  * (“/analytics”): Get the minimum, mean and maximum price; Get most and least purchased; Get the customer who spent most.
  
-@PostMapping
+ @PostMapping
 
  * (“/customer”): Add a new customer.
  * (“/product”): Add a new product.
  * (“/sale”): Add a new sale.
  
-@DeleteMapping 
+ @DeleteMapping 
 
  * ("/customer/{id}"): Delete a customer.
  * ("/product/{id}"): Delete a product. 
  * (“/sale/{id}”): Delete a sale.
  
-@PutMapping 
+ @PutMapping 
 
  * (“/customer”): Save the customer’s ID, name, and email. 
  * (“/product”): Save the product’s ID, name, price and category. 

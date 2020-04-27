@@ -8,14 +8,14 @@
 
 ## :watermelon::banana::green_apple::peach:Supermarket Inventory System:strawberry::grapes::lemon::orange: 
 
-#### **1.Project Introduction:**
-
+# **1.Project Introduction:**
+---
 #### **2.Sample Demo Screen shots:**
 <img width="500" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/img/1.png">
 <img width="500" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/img/2.png">
 <img width="500" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/img/3.png">
 <img width="500" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/img/4.png">
-
+---
 #### **3.Pre-requisites:**
 
 _ _List of required software to download_ _
@@ -61,7 +61,7 @@ spring.datasource.password=yourPassword
 server.port=8080
 ```
  Change yourDatabaseURL, yourUserName, yourPasswordto your own credentials.
-
+---
 #### **4. Instructions on how to run the project locally.**
 
 Open terminal from /cmpe172_project directory
@@ -76,15 +76,15 @@ Open browert after the applicaiton is running. It should be on localhost port 80
 ```
 localhost:8080
 ```
-
+---
 #### **5. UML Diagrams**
  - Class Diagram
 <img width="1000" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/img/IMG_3585.PNG">
 
 # Sequence diagrams
-
+---
 # **6. Schema**
-
+---
 #### **7. DatabaseQueries**
  - Minimum price of product: select min(price) from product
 
@@ -96,7 +96,7 @@ localhost:8080
 
 - Customer that spent the most: select customer.name, sum(price * quantity) as total from customer natural join sale, product where product.product_ID = sale.product_ID group by customer.name order by total desc limit 1
 
-
+---
 #### **8. MidtierAPIs**
 
 @RequestMapping (“/api”)
@@ -127,7 +127,7 @@ localhost:8080
  * (“/customer”): Save the customer’s ID, name, and email. 
  * (“/product”): Save the product’s ID, name, price and category. 
  * (“/sale”): Save the sale’s ID, customer’s ID, product’s ID, quantity and time.
-
+---
 #### **9. UI data transport**
 
  * Customer: {“Customer ID”, “Name”, “Email”} from @GetMapping(“/api/customer”)

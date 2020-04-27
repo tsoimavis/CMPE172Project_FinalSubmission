@@ -15,7 +15,9 @@
 <img width="500" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/img/2.png">
 <img width="500" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/img/3.png">
 <img width="500" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/img/4.png">
+
 ---
+
 #### **3.Pre-requisites:**
 
 _ _List of required software to download_ _
@@ -60,7 +62,8 @@ spring.datasource.username=yourUserName
 spring.datasource.password=yourPassword
 server.port=8080
 ```
- Change yourDatabaseURL, yourUserName, yourPasswordto your own credentials.
+Change yourDatabaseURL, yourUserName, yourPasswordto your own credentials.
+
 ---
 #### **4. Instructions on how to run the project locally.**
 

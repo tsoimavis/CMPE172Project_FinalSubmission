@@ -88,11 +88,16 @@ localhost:8080
  - Class Diagram
 <img width="1000" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/img/IMG_3585.PNG">
 
-# Sequence diagrams
+#### Sequence diagrams
+<img width="600" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/img/IMG_3591.PNG">
+<img width="600" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/img/IMG_3594.PNG">
+<img width="600" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/img/IMG_3595.PNG">
+<img width="600" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/img/IMG_3596.PNG">
 
 ---
 #### **6. Schema**
 <img width="700" alt="1" src="https://github.com/tsoimavis/CMPE172Project_FinalSubmission/blob/master/cmpe172_project/frontend/src/Component/schema.PNG">
+
 ---
 
 #### **7. DatabaseQueries**
